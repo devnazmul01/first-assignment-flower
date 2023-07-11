@@ -1,0 +1,33 @@
+/*common section*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px 15px;
+}
+/*upper section*/
+.main-title{
+    color: #272727;
+    font-size: 35px;
+    font-weight: 800;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(229, 84, 115, 0.10);
+    align-items: center;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+}
+.main-pic{
+    width: 400px;
+    
+}
