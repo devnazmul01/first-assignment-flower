@@ -10,24 +10,30 @@ body{
     color: white;
     font-size: 15px;
     font-weight: 700;
-    padding: 15px 15px;
+    padding: 15px 30px;
+    margin-top: 20px;
 }
 /*upper section*/
 .main-title{
     color: #272727;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 800;
+}
+.sub-title{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
 }
 .header{
     display: flex;
     justify-content: space-between;
     background-color: rgba(229, 84, 115, 0.10);
     align-items: center;
-}
-.banner{
-    padding: 30px 30px 30px 150px;
+    padding: 0 200px;
 }
 .main-pic{
     width: 400px;
-    
+}
+.header-left{
+    display: inline-block;
+    margin-right: 100px;
 }
