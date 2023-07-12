@@ -1,4 +1,10 @@
 /*common section*/
+html, body{
+    width: 100%;
+    margin-right: 0;
+    padding: 0;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Lato', sans-serif;
@@ -47,6 +53,8 @@ body{
     background-color: rgba(229, 84, 115, 0.10);
     align-items: center;
     padding: 0 200px;
+    margin-right: 0px;
+    
 }
 .main-pic{
     width: 400px;
@@ -60,6 +68,7 @@ body{
 /*main section 1*/
 .sec-1{
     margin-top: 100px;
+    margin-bottom: 0px;
 }
 #title{
   text-align: center;
@@ -113,7 +122,7 @@ body{
 /*main section 2*/
 #btn-2{
     display: inline;
-    margin-left: 135px;
+    margin-left: 110px;
     font-size: 10px;
     padding: 14px 25px;
 }
@@ -124,6 +133,7 @@ body{
     align-items: center;
     padding:40px 400px;
     margin-top: 100px;
+    margin-bottom: 0px;
 }
 #maintitle{
     font-size: 22px;
@@ -139,5 +149,99 @@ body{
 }
 
 /*main section 3*/
+.sec-3{
+display: block;
+margin-top: 100px;
+margin-bottom: 0px;
+}
+#img-5, #img-6, #img-7, #img-8{
+    padding: 10px 10px 0px 10px;
+    justify-content: space-between;
+    display:block;
+    margin-left: auto;
+    margin-right: 20px;
+}
+#img-sec-3{
+    width: 100%;
+    align-items: center;
+    padding-left: 230px;
+    
+}
+.container-3{
+    float: left;
+    list-style: none;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
 /*main section 4*/
+.sec-4{
+    background-image: url('../Flower\ Asset/Rectangle 9.png');
+    display:inline-block;
+    justify-content: space-around;
+    padding: 120px 500px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+#title-4, #sub-4{
+    text-align: center;
+    margin-top: 0px;
+}
+#title-4{
+    margin-bottom: 10px;
+}
+#sub-4{
+    margin-top: 10px;
+}
+#mail{
+    padding: 10px 150px;
+    padding-left: 10px;
+    display: inline;
+}
+#subscribe{
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 15px;
+    padding-left: 10px;
+    margin-top: 20px;
+    
+}
+.bar{
+    position: absolute;
+    width: auto;
+}
 /*footer section*/
+.footer{
+    background: #111010;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    margin-top: 80px;
+}
+.title-f{
+    text-align: center;
+    margin-left: 180px;
+    margin-bottom: 20px;
+    padding: 0px 30px 30px 0px;
+}
+#mtitle-f{
+    padding-bottom: 0px;
+}
+#sub-f{
+    padding-top:0px;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 15px;
+}
+#sub-f-2{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-weight: 400;
+}
